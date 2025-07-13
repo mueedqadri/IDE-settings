@@ -10,7 +10,7 @@ def get_config_path(ide_choice):
         elif ide_choice == "windsurf":
             return os.path.expanduser("~/Library/Application Support/Windsurf/User/")
         elif ide_choice == "cursor":
-            return os.path.expanduser("~/.cursor/")
+            return os.path.expanduser("~/Library/Application Support/Cursor/User/")
     return None
 
 def update_settings_json(config_path, vim_settings):
