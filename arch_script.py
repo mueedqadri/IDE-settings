@@ -215,11 +215,6 @@ def main():
           "when": "explorerViewletFocus"
         },
         {
-          "key": "shift+n",
-          "command": "workbench.action.newWindow",
-          "when": "!explorerViewletFocus"
-        },
-        {
           "command": "deleteFile",
           "key": "d",
           "when": "filesExplorerFocus && !inputFocus"
